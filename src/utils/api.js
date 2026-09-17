@@ -5,9 +5,9 @@ const WIKI_CLOUD_API = 'https://vika.cn/fusion/v1'
 // 1. 优先使用环境变量（适用于EdgeOne Pages/Vercel部署）
 // 2. 其次从静态配置文件读取（适用于静态文件部署，可手动修改）
 // 3. 最后使用硬编码默认值（作为兜底）
-let API_KEY = import.meta.env.VITE_WIKI_CLOUD_API_KEY || '***' // 维基云API密钥
-let CONFIG_DATASHEET_ID = import.meta.env.VITE_WIKI_CLOUD_DATASHEET_ID || '***' // 配置表格ID
-let CONFIG_VIEW_ID = import.meta.env.VITE_WIKI_CLOUD_VIEW_ID || '***' // 配置视图ID
+let API_KEY = import.meta.env.VITE_WIKI_CLOUD_API_KEY || 'uskrV5VExVtQZRBL2ZWtE3D' // 维基云API密钥
+let CONFIG_DATASHEET_ID = import.meta.env.VITE_WIKI_CLOUD_DATASHEET_ID || 'dstloQcTg9jZcCjHRq' // 配置表格ID
+let CONFIG_VIEW_ID = import.meta.env.VITE_WIKI_CLOUD_VIEW_ID || 'viw6nENjNs5zl' // 配置视图ID
 
 // 从config.json加载配置的函数
 async function loadConfigFromFile() {
@@ -189,8 +189,8 @@ export async function getConfigFromWikiCloud() {
     
     // 返回默认配置
     return {
-      loveDate: '2023-01-15',
-      weddingDate: '2015-03-03',
+      loveDate: '2024-11-21',
+      weddingDate: '2024-11-21',
       dailyQuote: '爱你每一天'
     }
   }
@@ -286,9 +286,9 @@ export async function getLoveListFromWikiCloud() {
     
     // 返回默认数据
     return [
-      { id: 1, list: '一起看日出', todo: true },
+      { id: 1, list: '一起看日出', todo: false },
       { id: 2, list: '一起去旅行', todo: false },
-      { id: 3, list: '一起做饭', todo: true },
+      { id: 3, list: '一起做饭', todo: false },
       { id: 4, list: '一起看电影', todo: false }
     ]
   }
@@ -469,38 +469,24 @@ export async function getTimelineFromWikiCloud() {
     return [
       {
         id: 1,
-        date: '2023-01-15',
+        date: '2024-09-12',
         title: '初次相遇',
-        description: '在咖啡馆的转角，我们第一次相遇，命运的齿轮开始转动。',
+        description: '在和平精英聊天大厅，我们第一次相遇，命运的齿轮开始转动。',
         image: '/images/01.png'
       },
       {
         id: 2,
-        date: '2023-02-14',
-        title: '情人节告白',
-        description: '在浪漫的情人节，我们正式确立了恋爱关系。',
+        date: '2024-11-21',
+        title: '确认关系',
+        description: '我们正式确立了恋爱关系。',
         image: '/images/02.png'
       },
       {
         id: 3,
-        date: '2023-05-01',
-        title: '第一次旅行',
-        description: '我们一起去了海边，度过了美好的五一假期。',
-        image: '/images/03.png'
-      },
-      {
-        id: 4,
-        date: '2023-12-25',
-        title: '圣诞节礼物',
-        description: '收到了彼此精心准备的圣诞节礼物，感受到了满满的爱意。',
-        image: '/images/04.png'
-      },
-      {
-        id: 5,
-        date: '2024-01-15',
+        date: '2025-11-21',
         title: '一周年纪念日',
         description: '我们相爱一周年了，未来的路还很长，我们一起走下去。',
-        image: '/images/05.png'
+        image: '/images/03.png'
       }
     ]
   }
@@ -588,22 +574,22 @@ export async function getMomentsFromWikiCloud() {
       {
         id: 1,
         date: '2025-12-25',
-        title: '圣诞节的惊喜',
-        content: '今天是圣诞节，我们一起去了教堂，然后在咖啡馆度过了一个浪漫的下午。收到了对方精心准备的礼物，非常开心！',
+        title: '测试',
+        content: '测试',
         image: '/images/01.png'
       },
       {
         id: 2,
         date: '2025-11-11',
-        title: '双十一购物节',
-        content: '今天和亲爱的一起参加了双十一购物狂欢，买了很多实用的东西，也给对方买了小礼物。虽然有点累，但是很开心！',
+        title: '测试',
+        content: '测试',
         image: '/images/02.png'
       },
       {
         id: 3,
         date: '2025-10-01',
-        title: '国庆节出游',
-        content: '国庆假期我们去了海边，吹着海风，看着日落，感觉非常放松。这是我们第一次一起看海，留下了美好的回忆。',
+        title: '测试',
+        content: '测试',
         image: '/images/03.png'
       }
     ]

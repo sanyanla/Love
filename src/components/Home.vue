@@ -9,11 +9,11 @@
           <div class="text-2xl font-bold bg-gradient-to-r from-red-500 to-blue-500 bg-clip-text text-transparent mb-2">{{ formattedLoveTime }}</div>
         </div>
         
-        <!-- 结婚周年倒计时 -->
+        <!-- 相爱周年倒计时 -->
         <div v-if="weddingDate" class="mt-4 text-center">
           <div class="text-gray-600">
             距离
-            <span class="font-bold">结婚</span>
+            <span class="font-bold">相爱</span>
             <span class="text-red-500 font-bold">{{ weddingAnniversary }}</span>
             周年纪念日还有
             <span class="text-red-500 font-bold">{{ daysUntilWeddingAnniversary }}</span>
@@ -116,10 +116,10 @@ import { getConfigFromWikiCloud } from '../utils/api'
 const config = ref({})
 
 // 恋爱开始日期
-const loveDate = ref('2023-01-15')
+const loveDate = ref('2024-11-21')
 
 // 结婚日期
-const weddingDate = ref('2015-03-03')
+const weddingDate = ref('2024-11-21')
 
 
 

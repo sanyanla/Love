@@ -65,12 +65,12 @@ export default {
     Avatar
   },
   setup() {
-    const boyName = ref('小明')
-    const girlName = ref('小红')
+    const boyName = ref('sanyan')
+    const girlName = ref('米粒')
     const boyAvatar = ref('')
     const girlAvatar = ref('')
-    const meetDate = ref('2023-01-01')
-    const loveDate = ref('2023-02-14')
+    const meetDate = ref('2024-09-12')
+    const loveDate = ref('2024-11-21')
     const loveDays = ref(0)
     const meetDays = ref(0)
     const loveDeclaration = ref('愿有岁月可回首，且以深情共白头。\n在时光的长河里，我们携手同行，\n用爱书写属于我们的浪漫篇章。')
