@@ -4,7 +4,7 @@
       <div class="text-center">
         <!-- 版权信息 -->
         <div class="mb-4">
-          <p class="text-1xl font-bold bg-gradient-to-r from-red-500 to-blue-500 bg-clip-text text-transparent">&copy; sanyan和米粒的爱情小站💝</p>          
+          <p class="text-1xl font-bold bg-gradient-to-r from-red-500 to-blue-500 bg-clip-text text-transparent">&copy; 水常和萍之六的爱情小站💝</p>          
           <p class="text-1xl bg-gradient-to-r from-red-500 to-blue-500 bg-clip-text text-transparent">已稳定运行 {{ days }} 天 {{ hours }} 小时 {{ minutes }} 分钟 {{ seconds }} 秒</p>
           <p class="text-1xl font-bold bg-gradient-to-r from-red-500 to-blue-500 bg-clip-text text-transparent"> ❤️月亮被嚼碎变成了星星，你就藏在这满天的星光里✨💘 </p>
         </div>
@@ -17,7 +17,7 @@
 import { ref, onMounted, onUnmounted } from 'vue'
 
 // 起始时间（可调整）
-const startTime = new Date('2026-09-18T00:00:00')
+const startTime = new Date('2026-01-01T00:00:00')
 
 // 运行时间
 const days = ref(0)

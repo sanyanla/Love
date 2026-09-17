@@ -109,12 +109,12 @@ defineProps({
 const config = ref({})
 
 // 男生信息
-const boyName = ref('sanyan')
-const boyAvatar = ref('https://q1.qlogo.cn/g?b=qq&nk=2902606178&s=640')
+const boyName = ref('水常')
+const boyAvatar = ref('https://s2.loli.net/2024/12/25/CqQwNS6p2WDAk18.jpg')
 
 // 女生信息
-const girlName = ref('米粒')
-const girlAvatar = ref('https://q1.qlogo.cn/g?b=qq&nk=2918678599&s=640')
+const girlName = ref('萍之六')
+const girlAvatar = ref('https://s2.loli.net/2024/12/25/Qzfr45S9uJYKkp8.jpg')
 
 // 计算header背景样式
 const headerStyle = computed(() => {
