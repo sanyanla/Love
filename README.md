@@ -1,9 +1,9 @@
 # 💖 情侣网站💖 
 
 一个基于 Vue 3 构建的浪漫爱情主题网站，记录美好时光、分享爱情故事，支持网友留言祝福。仅需要一个维格云表格即可设置网站内容，无需后端。
-详细说明点击：[https://blog.jianzhugo.cn/post/e3ef35c8.html](https://blog.jianzhugo.cn/post/e3ef35c8.html)
+详细说明点击：[https://love.xn--ehqv57l.xn--fiqs8s/](https://love.xn--ehqv57l.xn--fiqs8s/)
 
-![演示效果](https://love.jianzhugo.cn/images/jiepin.png)
+![演示效果](https://love.xn--ehqv57l.xn--fiqs8s/images/jiepin.png)
 
 ## ✨ 特色功能
 
